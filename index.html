@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Face Recognition Attendance System</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        nav {
+            background: #1e1e2f;
+            padding: 15px 40px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        nav h1 {
+            color: #fff;
+            font-size: 22px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-left: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 14px;
+        }
+
+        /* Hero Section */
+        .hero {
+            height: 90vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(to right, #667eea, #764ba2);
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .hero h2 {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            max-width: 600px;
+            margin: auto;
+            margin-bottom: 25px;
+        }
+
+        .hero button {
+            padding: 12px 25px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            background: #fff;
+            color: #764ba2;
+            cursor: pointer;
+            font-weight: 600;
+        }
+
+        .hero button:hover {
+            background: #e6e6e6;
+        }
+
+        /* Features Section */
+        .features {
+            padding: 70px 40px;
+            background: #f9f9ff;
+            text-align: center;
+        }
+
+        .features h3 {
+            font-size: 32px;
+            margin-bottom: 50px;
+            color: #333;
+        }
+
+        .feature-box {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+            gap: 30px;
+        }
+
+        .feature-card {
+            background: white;
+            padding: 30px 25px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+        }
+
+        .feature-card .icon {
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+
+        .feature-card h4 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #667eea;
+        }
+
+        .feature-card p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.6;
+        }
+
+        /* Footer */
+        footer {
+            background: #1e1e2f;
+            color: #fff;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <h1>FaceAttend</h1>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="adminlog.html">Admin</a></li>
+            <li><a href="#">Register</a></li>
+            <li><a href="#">Attendance</a></li>
+            <li><a href="#">FAQs</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div>
+            <h2>Face Recognition Attendance System</h2>
+            <p>
+                A smart, secure, and contactless solution to manage attendance
+                using real-time face recognition technology.
+            </p>
+            <button>Get Started</button>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h3>Why Choose Our System?</h3>
+        <div class="feature-box">
+
+            <div class="feature-card">
+                <div class="icon">🤖</div>
+                <h4>Smart Automation</h4>
+                <p>Attendance is recorded automatically using intelligent face recognition technology.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">⚡</div>
+                <h4>Fast & Contactless</h4>
+                <p>Touch-free and quick attendance process ensuring safety and convenience.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">🎯</div>
+                <h4>High Accuracy</h4>
+                <p>Advanced algorithms provide precise and reliable face identification.</p>
+            </div>
+
+            <div class="feature-card">
+                <div class="icon">🔒</div>
+                <h4>Secure Records</h4>
+                <p>Attendance data is stored securely with easy access to reports.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        © 2025 Face Recognition Attendance System | All Rights Reserved
+    </footer>
+
+</body>
+</html>
